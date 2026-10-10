@@ -1,0 +1,72 @@
+[
+  {
+    "id": "CHG-101",
+    "title": "Payment Gateway Tokenization Migration",
+    "service": "PaymentService",
+    "endpoint": "/api/v1/payments/process",
+    "http_method": "POST",
+    "business_criticality": "Critical",
+    "is_breaking": true,
+    "description": "Migrates raw card processing to PCI-DSS v4 encrypted tokens and enforces mandatory idempotency_key header.",
+    "changed_fields": [
+      "headers.Idempotency-Key",
+      "body.token_version",
+      "body.payment_method_token"
+    ],
+    "author": "Payment Core Team",
+    "commit_hash": "a9f3b14",
+    "timestamp": "2026-09-28T09:15:00Z"
+  },
+  {
+    "id": "CHG-102",
+    "title": "Checkout Order Address Validation Strict Mode",
+    "service": "OrderService",
+    "endpoint": "/api/v1/orders/checkout",
+    "http_method": "POST",
+    "business_criticality": "High",
+    "is_breaking": false,
+    "description": "Enforces strict postal code verification against postal authority tables and computes municipal tax jurisdiction.",
+    "changed_fields": [
+      "body.shipping_address.postal_code",
+      "body.shipping_address.tax_jurisdiction"
+    ],
+    "author": "Checkout Experience Team",
+    "commit_hash": "b4e8c92",
+    "timestamp": "2026-09-28T10:30:00Z"
+  },
+  {
+    "id": "CHG-103",
+    "title": "User Profile Phone Verification Patch",
+    "service": "UserService",
+    "endpoint": "/api/v1/users/profile",
+    "http_method": "PUT",
+    "business_criticality": "Medium",
+    "is_breaking": false,
+    "description": "Adds optional SMS phone verification badge and carrier verification metadata field to user profile.",
+    "changed_fields": [
+      "body.phone_verified",
+      "body.telecom_carrier_id"
+    ],
+    "author": "Identity & Access Team",
+    "commit_hash": "c71d204",
+    "timestamp": "2026-09-28T11:45:00Z"
+  },
+  {
+    "id": "CHG-104",
+    "title": "Inventory Stock Reservation Optimistic Lock",
+    "service": "InventoryService",
+    "endpoint": "/api/v1/inventory/reserve",
+    "http_method": "POST",
+    "business_criticality": "Critical",
+    "is_breaking": true,
+    "description": "Replaces database row lock with distributed optimistic lock on SKU batches with a strict 15-minute reservation TTL.",
+    "changed_fields": [
+      "body.sku_items",
+      "body.reservation_ttl_seconds",
+      "headers.X-Lock-Version"
+    ],
+    "author": "Fulfillment Platform Team",
+    "commit_hash": "d15e478",
+    "timestamp": "2026-09-28T12:00:00Z"
+  }
+]

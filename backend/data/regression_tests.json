@@ -1,0 +1,2059 @@
+[
+  {
+    "id": "TEST-PAY-001",
+    "name": "Verify PCI-DSS v4 Tokenized Payment Processing",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/process"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.28,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.05,
+    "tags": [
+      "payment",
+      "pci-dss",
+      "tokenization",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Submits valid tokenized payload and validates 200 OK authorization code with mock payment processor."
+  },
+  {
+    "id": "TEST-PAY-002",
+    "name": "Payment Idempotency Key Replay Prevention Test",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/process"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.42,
+    "execution_time_seconds": 22,
+    "flakiness_score": 0.12,
+    "tags": [
+      "payment",
+      "idempotency",
+      "concurrency"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Sends duplicate payment payloads with identical Idempotency-Key and asserts duplicate rejection."
+  },
+  {
+    "id": "TEST-PAY-003",
+    "name": "Payment Refund Processing Workflow",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/refund",
+      "/api/v1/payments/process"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.15,
+    "execution_time_seconds": 18,
+    "flakiness_score": 0.02,
+    "tags": [
+      "payment",
+      "refund"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies refund transaction initiation against previously settled authorization charge."
+  },
+  {
+    "id": "TEST-ORD-001",
+    "name": "End-to-End Checkout with Payment Authorization",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/checkout",
+      "/api/v1/payments/process"
+    ],
+    "test_type": "E2E",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.35,
+    "execution_time_seconds": 65,
+    "flakiness_score": 0.18,
+    "tags": [
+      "order",
+      "checkout",
+      "e2e",
+      "payment"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Executes full customer checkout journey: cart conversion, address validation, and payment settlement."
+  },
+  {
+    "id": "TEST-ORD-002",
+    "name": "Checkout Address Validation and Tax Jurisdiction Lookup",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/checkout"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.22,
+    "execution_time_seconds": 15,
+    "flakiness_score": 0.04,
+    "tags": [
+      "order",
+      "address",
+      "tax"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates postal code matching, tax calculation boundaries, and error codes for invalid postal zones."
+  },
+  {
+    "id": "TEST-ORD-003",
+    "name": "Order Cancellation Before Fulfillment",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/cancel",
+      "/api/v1/orders/checkout"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 25,
+    "flakiness_score": 0.03,
+    "tags": [
+      "order",
+      "cancellation"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates cancellation workflow, inventory release signal, and customer credit notification."
+  },
+  {
+    "id": "TEST-INV-001",
+    "name": "Inventory Optimistic Stock Reservation Under Concurrency",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/reserve"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.45,
+    "execution_time_seconds": 40,
+    "flakiness_score": 0.15,
+    "tags": [
+      "inventory",
+      "concurrency",
+      "locking",
+      "stock"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Simulates 50 concurrent requests competing for 5 remaining units; verifies no overselling and TTL expiry."
+  },
+  {
+    "id": "TEST-INV-002",
+    "name": "Inventory Stock Release on Reservation Timeout",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/reserve",
+      "/api/v1/inventory/release"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.18,
+    "execution_time_seconds": 20,
+    "flakiness_score": 0.06,
+    "tags": [
+      "inventory",
+      "ttl",
+      "timeout"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Ensures reserved quantities automatically revert to available pool after reservation TTL expires."
+  },
+  {
+    "id": "TEST-USR-001",
+    "name": "User Profile Update with Phone Verification Attribute",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/profile"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.1,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.01,
+    "tags": [
+      "user",
+      "profile",
+      "phone"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Updates profile attributes including verified mobile number, asserts response structure and audit log."
+  },
+  {
+    "id": "TEST-USR-002",
+    "name": "User Authentication Session and JWT Token Rotation",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/auth",
+      "/api/v1/users/profile"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.12,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.02,
+    "tags": [
+      "auth",
+      "jwt",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Checks JWT issuance, claims integrity, refresh token validity, and expired session rejection."
+  },
+  {
+    "id": "TEST-NOT-001",
+    "name": "Transactional Notification Dispatch for Order Placement",
+    "service": "NotificationService",
+    "target_endpoints": [
+      "/api/v1/notifications/send"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 16,
+    "flakiness_score": 0.02,
+    "tags": [
+      "notification",
+      "email",
+      "sms"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies Kafka event consumption from OrderService and subsequent email queue dispatch."
+  },
+  {
+    "id": "TEST-REP-001",
+    "name": "Daily Settlement and Financial Reconciliation Report",
+    "service": "ReportingService",
+    "target_endpoints": [
+      "/api/v1/reports/reconciliation"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 35,
+    "flakiness_score": 0.03,
+    "tags": [
+      "reporting",
+      "reconciliation",
+      "batch"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates ledger balance aggregation between PaymentService transaction records and payment gateway CSV exports."
+  },
+  {
+    "id": "TEST-PAY-004",
+    "name": "Cross-Border Multi-Currency Payment Conversion",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/process"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.24,
+    "execution_time_seconds": 16,
+    "flakiness_score": 0.04,
+    "tags": [
+      "payment",
+      "fx-rate",
+      "currency",
+      "pci-dss"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests foreign exchange rate lookup, markup calculation, and currency conversion during payment authorization."
+  },
+  {
+    "id": "TEST-PAY-005",
+    "name": "High-Frequency Payment Throttling and Velocity Enforcement",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/process"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.19,
+    "execution_time_seconds": 28,
+    "flakiness_score": 0.08,
+    "tags": [
+      "payment",
+      "rate-limiting",
+      "velocity",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Asserts 429 Too Many Requests response code when customer submits more than 5 payments in 60 seconds."
+  },
+  {
+    "id": "TEST-PAY-006",
+    "name": "Payment Gateway Timeout Circuit Breaker Fallback",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/process"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.38,
+    "execution_time_seconds": 32,
+    "flakiness_score": 0.14,
+    "tags": [
+      "payment",
+      "resilience",
+      "circuit-breaker",
+      "timeout"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Simulates 504 Gateway Timeout and verifies circuit-breaker routes transaction to secondary processor."
+  },
+  {
+    "id": "TEST-PAY-007",
+    "name": "Capture Pre-Authorized Escrow Funds",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/capture"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.11,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.02,
+    "tags": [
+      "payment",
+      "escrow",
+      "capture"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies delayed capture of pre-authorized funds upon fulfillment trigger within the 7-day auth window."
+  },
+  {
+    "id": "TEST-PAY-008",
+    "name": "Stored Customer Payment Method Vaulting and Deletion",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/methods"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.01,
+    "tags": [
+      "payment",
+      "vault",
+      "pci-dss"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies tokenized card saving to user wallet and validates zero plaintext card data stored in database."
+  },
+  {
+    "id": "TEST-PAY-009",
+    "name": "3D Secure 2.0 Strong Customer Authentication Challenge",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/3ds-verify"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.29,
+    "execution_time_seconds": 24,
+    "flakiness_score": 0.09,
+    "tags": [
+      "payment",
+      "3ds",
+      "psd2",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Simulates frictionless vs challenge 3DS flows, validating biometric payload and cryptographic signature."
+  },
+  {
+    "id": "TEST-PAY-010",
+    "name": "Merchant Automated ACH Payout Batch Generation",
+    "service": "PaymentService",
+    "target_endpoints": [
+      "/api/v1/payments/payouts"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 21,
+    "flakiness_score": 0.03,
+    "tags": [
+      "payment",
+      "ach",
+      "payouts",
+      "batch"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Generates NACHA-formatted batch payout records for marketplace vendors and asserts ledger reconciliation balance."
+  },
+  {
+    "id": "TEST-ORD-004",
+    "name": "Checkout Promotional Coupon Validation and Discount Engine",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/checkout"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.17,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.03,
+    "tags": [
+      "order",
+      "coupon",
+      "promotions",
+      "checkout"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Applies percentage and fixed coupons to cart checkout payload and ensures non-negative subtotal constraints."
+  },
+  {
+    "id": "TEST-ORD-005",
+    "name": "Split Shipment Order Routing Across Regional Fulfillment Centers",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/checkout",
+      "/api/v1/orders/fulfillment"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.26,
+    "execution_time_seconds": 38,
+    "flakiness_score": 0.07,
+    "tags": [
+      "order",
+      "fulfillment",
+      "logistics"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Splits multi-item order into separate consignments based on warehouse inventory availability."
+  },
+  {
+    "id": "TEST-ORD-006",
+    "name": "Order Status Real-Time Tracking Timeline",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/track"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 8,
+    "flakiness_score": 0.01,
+    "tags": [
+      "order",
+      "tracking",
+      "status"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Retrieves milestone timeline (Created -> Paid -> Packed -> Shipped -> Delivered) with accurate timestamps."
+  },
+  {
+    "id": "TEST-ORD-007",
+    "name": "Customer Return Merchandise Authorization (RMA) Workflow",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/returns"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.12,
+    "execution_time_seconds": 19,
+    "flakiness_score": 0.04,
+    "tags": [
+      "order",
+      "rma",
+      "returns"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates RMA creation within 30-day return window and triggers return shipping label generation."
+  },
+  {
+    "id": "TEST-ORD-008",
+    "name": "Order Invoice PDF Generation and Archival",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/invoice"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.04,
+    "execution_time_seconds": 22,
+    "flakiness_score": 0.02,
+    "tags": [
+      "order",
+      "invoice",
+      "pdf"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Renders tax-compliant PDF invoice with breakdown of VAT, discounts, shipping fees, and merchant tax ID."
+  },
+  {
+    "id": "TEST-ORD-009",
+    "name": "Historical Order Search with Date Range and SKU Filters",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/history"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.03,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.01,
+    "tags": [
+      "order",
+      "search",
+      "pagination"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Queries historical customer orders with compound filters, verifying index-backed pagination efficiency."
+  },
+  {
+    "id": "TEST-ORD-010",
+    "name": "Bulk B2B Order Processing with Purchase Order Terms",
+    "service": "OrderService",
+    "target_endpoints": [
+      "/api/v1/orders/b2b/submit"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.21,
+    "execution_time_seconds": 45,
+    "flakiness_score": 0.05,
+    "tags": [
+      "order",
+      "b2b",
+      "credit-terms"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates Net-30 credit limit verification, tax exemption certificates, and multi-line PO ingestion."
+  },
+  {
+    "id": "TEST-INV-003",
+    "name": "Warehouse Multi-Zone Batch Stock Allocation",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/reserve"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.31,
+    "execution_time_seconds": 18,
+    "flakiness_score": 0.06,
+    "tags": [
+      "inventory",
+      "reservation",
+      "warehouse",
+      "allocation"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests reservation of SKU quantities across distributed storage aisles with FIFO batch selection."
+  },
+  {
+    "id": "TEST-INV-004",
+    "name": "Flash Sale Peak Traffic Stock Reservation Queue",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/reserve"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.44,
+    "execution_time_seconds": 50,
+    "flakiness_score": 0.16,
+    "tags": [
+      "inventory",
+      "concurrency",
+      "flash-sale",
+      "rate-limiting"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Simulates 10,000 synthetic queue reservations per second and validates Redis lock fairness."
+  },
+  {
+    "id": "TEST-INV-005",
+    "name": "Low Stock Threshold Alert and Auto-Restock Trigger",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/alerts",
+      "/api/v1/inventory/restock"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.14,
+    "execution_time_seconds": 17,
+    "flakiness_score": 0.03,
+    "tags": [
+      "inventory",
+      "restock",
+      "supplier",
+      "alerts"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Monitors stock depletion below reorder point and verifies automatic generation of supplier purchase draft."
+  },
+  {
+    "id": "TEST-INV-006",
+    "name": "Physical Inventory Count Reconciliation and Shrinkage Audit",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/audit"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 29,
+    "flakiness_score": 0.02,
+    "tags": [
+      "inventory",
+      "audit",
+      "shrinkage"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Compares cycle count scanner data against logical warehouse quantities and logs variance adjustments."
+  },
+  {
+    "id": "TEST-INV-007",
+    "name": "Perishable Goods Expiration Date and Lot Tracking",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/batches"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.13,
+    "execution_time_seconds": 15,
+    "flakiness_score": 0.04,
+    "tags": [
+      "inventory",
+      "lot-tracking",
+      "perishable"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Enforces First-Expiry-First-Out (FEFO) picker allocation and blocks reservation of expired medicine lots."
+  },
+  {
+    "id": "TEST-INV-008",
+    "name": "Drop-Shipping Supplier Inventory Sync Protocol",
+    "service": "InventoryService",
+    "target_endpoints": [
+      "/api/v1/inventory/supplier-feed"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.2,
+    "execution_time_seconds": 34,
+    "flakiness_score": 0.08,
+    "tags": [
+      "inventory",
+      "dropship",
+      "edi",
+      "supplier"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Parses hourly EDIFACT/XML stock feeds from third-party vendor APIs with delta updates."
+  },
+  {
+    "id": "TEST-USR-003",
+    "name": "GDPR Right to Be Forgotten and Personal Data Export",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/profile",
+      "/api/v1/users/gdpr-export"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.16,
+    "execution_time_seconds": 26,
+    "flakiness_score": 0.03,
+    "tags": [
+      "user",
+      "gdpr",
+      "compliance",
+      "privacy"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates cryptographic pseudonymization of PII upon user deletion request and exports portable archive."
+  },
+  {
+    "id": "TEST-USR-004",
+    "name": "User Multi-Factor TOTP Authenticator Registration",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/profile",
+      "/api/v1/users/mfa/setup"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.11,
+    "execution_time_seconds": 13,
+    "flakiness_score": 0.02,
+    "tags": [
+      "user",
+      "mfa",
+      "totp",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests RFC 6238 TOTP shared secret generation, QR code payload, and time-drift code validation."
+  },
+  {
+    "id": "TEST-USR-005",
+    "name": "Role-Based Access Control (RBAC) Permission Matrix Enforcement",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/roles"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.01,
+    "tags": [
+      "user",
+      "rbac",
+      "authorization",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Asserts 403 Forbidden when standard user role attempts admin endpoint modifications."
+  },
+  {
+    "id": "TEST-USR-006",
+    "name": "User Multiple Shipping Address Book CRUD Management",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/addresses"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.01,
+    "tags": [
+      "user",
+      "addresses",
+      "crud"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests creation, default address designation, address update, and cascading deletion safeguards."
+  },
+  {
+    "id": "TEST-USR-007",
+    "name": "Account Password Reset Token Lifecyle and Rate Limit",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/password-reset"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.14,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.02,
+    "tags": [
+      "user",
+      "auth",
+      "security",
+      "password-reset"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Ensures reset tokens expire after 15 minutes and verifies one-time-use invalidation."
+  },
+  {
+    "id": "TEST-USR-008",
+    "name": "User Session Revocation on Password Change",
+    "service": "UserService",
+    "target_endpoints": [
+      "/api/v1/users/auth/revoke"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.15,
+    "execution_time_seconds": 18,
+    "flakiness_score": 0.03,
+    "tags": [
+      "user",
+      "session",
+      "jwt",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies active refresh tokens on all devices are invalidated immediately after credentials update."
+  },
+  {
+    "id": "TEST-CRT-001",
+    "name": "Cart-to-Checkout Price and Item Snapshot Integrity",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/checkout",
+      "/api/v1/orders/checkout"
+    ],
+    "test_type": "E2E",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.27,
+    "execution_time_seconds": 36,
+    "flakiness_score": 0.08,
+    "tags": [
+      "cart",
+      "checkout",
+      "e2e",
+      "pricing"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies that active cart locks SKU pricing before transferring state to OrderService checkout."
+  },
+  {
+    "id": "TEST-CRT-002",
+    "name": "Cart Item Quantity Increment and Live Price Recalculation",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/items"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 8,
+    "flakiness_score": 0.02,
+    "tags": [
+      "cart",
+      "pricing",
+      "items"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests line-item addition, tier-based quantity discounts, and subtotal math validation."
+  },
+  {
+    "id": "TEST-CRT-003",
+    "name": "Guest Cart Merge with Authenticated User Cart on Login",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/merge"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.23,
+    "execution_time_seconds": 21,
+    "flakiness_score": 0.06,
+    "tags": [
+      "cart",
+      "auth",
+      "session",
+      "merge"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Merges anonymous cookie session cart items into authenticated user database cart deduplicating SKUs."
+  },
+  {
+    "id": "TEST-CRT-004",
+    "name": "Abandoned Cart Expiration and Cleanup Sweep",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/cleanup"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.04,
+    "execution_time_seconds": 15,
+    "flakiness_score": 0.01,
+    "tags": [
+      "cart",
+      "cleanup",
+      "cron"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Soft-deletes inactive carts older than 30 days and triggers marketing re-engagement webhook."
+  },
+  {
+    "id": "TEST-CRT-005",
+    "name": "Maximum Cart Item Limits and Malformed Quantity Defense",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/items"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 7,
+    "flakiness_score": 0.01,
+    "tags": [
+      "cart",
+      "validation",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Asserts 400 Bad Request on negative quantities, fractional amounts, or attempts to exceed 99 items per line."
+  },
+  {
+    "id": "TEST-CRT-006",
+    "name": "Cart Out-of-Stock Warning and Price Change Notification",
+    "service": "CartService",
+    "target_endpoints": [
+      "/api/v1/cart/validate"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.18,
+    "execution_time_seconds": 19,
+    "flakiness_score": 0.05,
+    "tags": [
+      "cart",
+      "inventory",
+      "price-change"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Cross-checks cart items against live catalog prices and inventory stock; flags discrepancies before checkout."
+  },
+  {
+    "id": "TEST-CAT-001",
+    "name": "Product Detail Retrieval with Variant Hierarchy and Attributes",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/products"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 6,
+    "flakiness_score": 0.01,
+    "tags": [
+      "catalog",
+      "products",
+      "variants"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Fetches SKU details, parent-child variant trees, high-res image URLs, and breadcrumb categories."
+  },
+  {
+    "id": "TEST-CAT-002",
+    "name": "Category Tree Hierarchy and Faceted Filter Navigation",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/categories"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 8,
+    "flakiness_score": 0.01,
+    "tags": [
+      "catalog",
+      "categories",
+      "facets"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates nested department taxonomy up to 4 levels deep and returns attribute facet counts."
+  },
+  {
+    "id": "TEST-CAT-003",
+    "name": "Bulk Product Ingestion via Enterprise PIM Sync",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/bulk-import"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.28,
+    "execution_time_seconds": 55,
+    "flakiness_score": 0.11,
+    "tags": [
+      "catalog",
+      "pim",
+      "bulk",
+      "etl"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Ingests 5,000 product records via multipart JSON feed and verifies schema validation and elastic indexing."
+  },
+  {
+    "id": "TEST-CAT-004",
+    "name": "Dynamic Product Pricing Rules and Customer Tier Markdowns",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/pricing"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.14,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.03,
+    "tags": [
+      "catalog",
+      "pricing",
+      "markdowns"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Calculates member VIP discounts, scheduled promotional prices, and minimum advertised price (MAP) rules."
+  },
+  {
+    "id": "TEST-CAT-005",
+    "name": "Product SKU Deactivation and Canonical 301 Redirects",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/products/status"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.02,
+    "tags": [
+      "catalog",
+      "seo",
+      "redirects"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Marks discontinued products and asserts permanent 301 redirection to closest category ancestor."
+  },
+  {
+    "id": "TEST-CAT-006",
+    "name": "Multi-Language Product Localization and Currency Formats",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/products"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.02,
+    "tags": [
+      "catalog",
+      "i18n",
+      "localization"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Tests Accept-Language header resolution returning localized titles, descriptions, and metric units."
+  },
+  {
+    "id": "TEST-CAT-007",
+    "name": "Related and Cross-Sell Accessories SKU Association",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/cross-sell"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.04,
+    "execution_time_seconds": 8,
+    "flakiness_score": 0.01,
+    "tags": [
+      "catalog",
+      "cross-sell",
+      "merchandising"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Returns curated compatible accessories and complementary SKUs for bundle merchandising."
+  },
+  {
+    "id": "TEST-CAT-008",
+    "name": "High-Resolution Product Asset Storage and CDN Cache Purge",
+    "service": "CatalogService",
+    "target_endpoints": [
+      "/api/v1/catalog/assets"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.12,
+    "execution_time_seconds": 24,
+    "flakiness_score": 0.05,
+    "tags": [
+      "catalog",
+      "cdn",
+      "assets",
+      "s3"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies image upload optimization, WebP compression, and Cloudflare cache purge API invocation."
+  },
+  {
+    "id": "TEST-AUTH-001",
+    "name": "OAuth2 / OIDC Single Sign-On Flow with Google & Okta",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/oauth2/callback"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.22,
+    "execution_time_seconds": 23,
+    "flakiness_score": 0.06,
+    "tags": [
+      "auth",
+      "oauth2",
+      "sso",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates authorization code exchange, state token CSRF protection, and ID token signature checking."
+  },
+  {
+    "id": "TEST-AUTH-002",
+    "name": "API Gateway HMAC Request Signing and Timestamp Verification",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/verify-hmac"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.18,
+    "execution_time_seconds": 7,
+    "flakiness_score": 0.02,
+    "tags": [
+      "auth",
+      "hmac",
+      "security",
+      "gateway"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies SHA-256 HMAC headers and rejects requests with timestamps skewed beyond 300 seconds."
+  },
+  {
+    "id": "TEST-AUTH-003",
+    "name": "Brute-Force Login Attempt IP Throttling and Account Lockout",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/login"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.15,
+    "execution_time_seconds": 28,
+    "flakiness_score": 0.04,
+    "tags": [
+      "auth",
+      "brute-force",
+      "rate-limiting",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Locks account for 30 minutes after 5 consecutive failed password attempts and dispatches security alert."
+  },
+  {
+    "id": "TEST-AUTH-004",
+    "name": "Machine-to-Machine Client Credentials Grant Authentication",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/token"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.01,
+    "tags": [
+      "auth",
+      "m2m",
+      "oauth2",
+      "jwt"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Issues scoped bearer access tokens for internal backend service callers with 3600-second TTL."
+  },
+  {
+    "id": "TEST-AUTH-005",
+    "name": "JSON Web Key Set (JWKS) Public Key Rotation Endpoint",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/.well-known/jwks.json"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 6,
+    "flakiness_score": 0.01,
+    "tags": [
+      "auth",
+      "jwks",
+      "cryptography"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Exposes standard RSA public keys for downstream services to perform decentralized token verification."
+  },
+  {
+    "id": "TEST-AUTH-006",
+    "name": "Cross-Origin Resource Sharing (CORS) Preflight Assertion",
+    "service": "AuthService",
+    "target_endpoints": [
+      "/api/v1/auth/login"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.04,
+    "execution_time_seconds": 5,
+    "flakiness_score": 0.01,
+    "tags": [
+      "auth",
+      "cors",
+      "headers"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Asserts proper Access-Control-Allow-Origin, Headers, and Methods on OPTIONS HTTP preflight requests."
+  },
+  {
+    "id": "TEST-SHP-001",
+    "name": "Multi-Carrier Shipping Rate Calculation Comparison",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/rates"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.16,
+    "execution_time_seconds": 17,
+    "flakiness_score": 0.05,
+    "tags": [
+      "shipping",
+      "rates",
+      "fedex",
+      "ups",
+      "dhl"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Requests real-time freight quotes across FedEx, UPS, and DHL based on weight, dimensions, and postal zones."
+  },
+  {
+    "id": "TEST-SHP-002",
+    "name": "Automated Carrier Shipping Label PDF / ZPL Generation",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/labels"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.25,
+    "execution_time_seconds": 29,
+    "flakiness_score": 0.08,
+    "tags": [
+      "shipping",
+      "labels",
+      "zpl",
+      "logistics"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Generates thermal-compatible Zebra ZPL barcode labels and stores tracking numbers in OrderService database."
+  },
+  {
+    "id": "TEST-SHP-003",
+    "name": "Carrier Webhook Ingestion for In-Transit Milestone Events",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/webhook"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.19,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.04,
+    "tags": [
+      "shipping",
+      "webhook",
+      "tracking"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Ingests carrier tracking webhooks, normalizes status codes, and emits notification dispatch events."
+  },
+  {
+    "id": "TEST-SHP-004",
+    "name": "International Customs Declaration and Harmonized Tariff Code",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/customs"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.14,
+    "execution_time_seconds": 16,
+    "flakiness_score": 0.03,
+    "tags": [
+      "shipping",
+      "customs",
+      "export",
+      "tariff"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates HS-code formatting, declared commercial value, and export compliance documents for cross-border transit."
+  },
+  {
+    "id": "TEST-SHP-005",
+    "name": "Locker and Access Point Delivery Address Validation",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/pickup-points"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.02,
+    "tags": [
+      "shipping",
+      "pudo",
+      "lockers"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Queries nearest automated parcel lockers within a 10km radius and checks compartment dimensions."
+  },
+  {
+    "id": "TEST-SHP-006",
+    "name": "Package Delivery Exception and Damage Claim Registration",
+    "service": "ShippingService",
+    "target_endpoints": [
+      "/api/v1/shipping/exceptions"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.1,
+    "execution_time_seconds": 20,
+    "flakiness_score": 0.03,
+    "tags": [
+      "shipping",
+      "claims",
+      "exceptions"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Handles delivery failure flags (incorrect address, recipient unavailable) and schedules re-delivery attempts."
+  },
+  {
+    "id": "TEST-BIL-001",
+    "name": "Billing Invoice Auto-Settlement via Payment Processor",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/invoices",
+      "/api/v1/payments/process"
+    ],
+    "test_type": "E2E",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.33,
+    "execution_time_seconds": 42,
+    "flakiness_score": 0.1,
+    "tags": [
+      "billing",
+      "payment",
+      "e2e",
+      "settlement"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Triggers billing cycle run, generates line-item invoice, and submits automated payment request to PaymentService."
+  },
+  {
+    "id": "TEST-BIL-002",
+    "name": "Tax Calculation Integration with Vertex & Avalara Engine",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/tax-compute"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.22,
+    "execution_time_seconds": 25,
+    "flakiness_score": 0.06,
+    "tags": [
+      "billing",
+      "tax",
+      "avalara",
+      "compliance"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies state and county sales tax accuracy based on delivery address geocodes and digital product exemptions."
+  },
+  {
+    "id": "TEST-BIL-003",
+    "name": "Monthly Dunning Automation for Failed Subscription Invoices",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/dunning"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.18,
+    "execution_time_seconds": 31,
+    "flakiness_score": 0.07,
+    "tags": [
+      "billing",
+      "dunning",
+      "recovery",
+      "subscriptions"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Schedules smart payment retry intervals on Day 1, Day 3, Day 7 following initial card decline."
+  },
+  {
+    "id": "TEST-BIL-004",
+    "name": "Corporate Customer Credit Balance Top-Up and Drawdown",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/credits"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 13,
+    "flakiness_score": 0.02,
+    "tags": [
+      "billing",
+      "credits",
+      "ledger"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Maintains double-entry prepaid credit balance ledger and applies deductions to open accounts payable."
+  },
+  {
+    "id": "TEST-BIL-005",
+    "name": "General Ledger Chart of Accounts CSV Export for ERP",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/ledger/export"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 37,
+    "flakiness_score": 0.03,
+    "tags": [
+      "billing",
+      "erp",
+      "sap",
+      "finance"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Aggregates daily debits and credits formatted for automated ingestion into SAP/NetSuite ERP systems."
+  },
+  {
+    "id": "TEST-BIL-006",
+    "name": "Credit Memo Issuance and Partial Disputed Line Adjustments",
+    "service": "BillingService",
+    "target_endpoints": [
+      "/api/v1/billing/credit-memos"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.11,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.02,
+    "tags": [
+      "billing",
+      "credit-memo",
+      "adjustments"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Generates signed credit memos reducing accounts receivable balance without re-issuing full tax invoice."
+  },
+  {
+    "id": "TEST-FRD-001",
+    "name": "Real-Time Transaction Risk Scoring During Payment Processing",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/evaluate",
+      "/api/v1/payments/process"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.36,
+    "execution_time_seconds": 30,
+    "flakiness_score": 0.11,
+    "tags": [
+      "fraud",
+      "payment",
+      "risk",
+      "machine-learning"
+    ],
+    "last_run_status": "FAILED",
+    "description": "Evaluates risk factors (IP proxy, geolocation mismatch, device fingerprint) synchronously in under 200ms."
+  },
+  {
+    "id": "TEST-FRD-002",
+    "name": "Blacklisted Card Number and BIN Range Interception",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/blacklist"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.12,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.02,
+    "tags": [
+      "fraud",
+      "blacklist",
+      "bin",
+      "security"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Blocks stolen card numbers and suspicious BIN ranges before reaching third-party payment gateways."
+  },
+  {
+    "id": "TEST-FRD-003",
+    "name": "Device Fingerprint Collision and Account Takeover Detection",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/device"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.15,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.03,
+    "tags": [
+      "fraud",
+      "ato",
+      "fingerprint"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Detects impossible travel speed between consecutive logins from differing geolocations."
+  },
+  {
+    "id": "TEST-FRD-004",
+    "name": "Promo Code Abuse and Multi-Account Velocity Shield",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/promo-check"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.02,
+    "tags": [
+      "fraud",
+      "promotions",
+      "abuse"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Flags multiple new user registrations sharing matching device canvas IDs claiming welcome coupons."
+  },
+  {
+    "id": "TEST-FRD-005",
+    "name": "Automated Chargeback Defense Packet Generation",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/chargebacks"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.13,
+    "execution_time_seconds": 27,
+    "flakiness_score": 0.04,
+    "tags": [
+      "fraud",
+      "chargebacks",
+      "disputes"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Compiles proof-of-delivery, IP logs, and AVS match verification into merchant representation bundle."
+  },
+  {
+    "id": "TEST-FRD-006",
+    "name": "High-Value Order Manual Review Queue Dispatch",
+    "service": "FraudDetectionService",
+    "target_endpoints": [
+      "/api/v1/fraud/review-queue"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.01,
+    "tags": [
+      "fraud",
+      "manual-review",
+      "queue"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Routes orders exceeding $2,500 with medium risk scores to internal fraud analyst dashboard."
+  },
+  {
+    "id": "TEST-SRC-001",
+    "name": "Fuzzy Product Full-Text Search and Typo Tolerance",
+    "service": "SearchService",
+    "target_endpoints": [
+      "/api/v1/search/query"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.14,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.03,
+    "tags": [
+      "search",
+      "elasticsearch",
+      "fuzzy",
+      "typo"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Asserts Levenshtein distance matching returns relevant results for common spelling mistakes."
+  },
+  {
+    "id": "TEST-SRC-002",
+    "name": "Typeahead Auto-Complete Query Suggestion Latency",
+    "service": "SearchService",
+    "target_endpoints": [
+      "/api/v1/search/suggestions"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 5,
+    "flakiness_score": 0.01,
+    "tags": [
+      "search",
+      "autocomplete",
+      "performance"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Ensures prefix queries return top 5 SKU suggestions and popular queries under 45ms P99 latency."
+  },
+  {
+    "id": "TEST-SRC-003",
+    "name": "Multi-Faceted Search Filters with Real-Time Stock Counts",
+    "service": "SearchService",
+    "target_endpoints": [
+      "/api/v1/search/filter"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.17,
+    "execution_time_seconds": 16,
+    "flakiness_score": 0.04,
+    "tags": [
+      "search",
+      "facets",
+      "filters",
+      "catalog"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Combines brand, color, price range, and in-stock toggles to verify accurate facet reduction counts."
+  },
+  {
+    "id": "TEST-SRC-004",
+    "name": "Search Re-Indexing Synonyms and Semantic Boosting",
+    "service": "SearchService",
+    "target_endpoints": [
+      "/api/v1/search/synonyms"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.02,
+    "tags": [
+      "search",
+      "synonyms",
+      "nlp"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Verifies custom synonym dictionary expansions (e.g., 'sofa' matches 'couch' and 'settee')."
+  },
+  {
+    "id": "TEST-NOT-002",
+    "name": "Order Confirmation Email Templating and Delivery",
+    "service": "NotificationService",
+    "target_endpoints": [
+      "/api/v1/notifications/email"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.02,
+    "tags": [
+      "notification",
+      "email",
+      "smtp",
+      "templates"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates SendGrid/SES email payload rendering with dynamic HTML order summary tables."
+  },
+  {
+    "id": "TEST-NOT-003",
+    "name": "Mobile Push Notification Dispatch via Apple APNs & Firebase",
+    "service": "NotificationService",
+    "target_endpoints": [
+      "/api/v1/notifications/push"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.15,
+    "execution_time_seconds": 15,
+    "flakiness_score": 0.05,
+    "tags": [
+      "notification",
+      "push",
+      "fcm",
+      "apns"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Dispatches real-time delivery status updates to iOS and Android device registration tokens."
+  },
+  {
+    "id": "TEST-NOT-004",
+    "name": "Customer Opt-Out Marketing Notification Preferences Enforcement",
+    "service": "NotificationService",
+    "target_endpoints": [
+      "/api/v1/notifications/preferences"
+    ],
+    "test_type": "API",
+    "business_criticality": "Critical",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.01,
+    "tags": [
+      "notification",
+      "compliance",
+      "can-spam",
+      "gdpr"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Blocks marketing campaign dispatches to unsubscribed users ensuring strict CAN-SPAM legal compliance."
+  },
+  {
+    "id": "TEST-NOT-005",
+    "name": "SMS Delivery Status Notification and Delivery Receipts",
+    "service": "NotificationService",
+    "target_endpoints": [
+      "/api/v1/notifications/sms"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.11,
+    "execution_time_seconds": 14,
+    "flakiness_score": 0.03,
+    "tags": [
+      "notification",
+      "sms",
+      "twilio"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Parses Twilio webhook delivery receipts and logs carrier hand-off timestamps."
+  },
+  {
+    "id": "TEST-REP-002",
+    "name": "Gross Merchandise Value (GMV) Real-Time Sales Metrics",
+    "service": "ReportingService",
+    "target_endpoints": [
+      "/api/v1/reports/gmv"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.09,
+    "execution_time_seconds": 22,
+    "flakiness_score": 0.03,
+    "tags": [
+      "reporting",
+      "analytics",
+      "gmv",
+      "sales"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Calculates real-time net revenue, returns, discounts, and regional sales performance metrics."
+  },
+  {
+    "id": "TEST-REP-003",
+    "name": "Inventory Turnover and Days of Supply Computation",
+    "service": "ReportingService",
+    "target_endpoints": [
+      "/api/v1/reports/inventory-turnover"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 28,
+    "flakiness_score": 0.02,
+    "tags": [
+      "reporting",
+      "inventory",
+      "turnover"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Analyzes historical stock movement and computes velocity run-rate projections for supply chain."
+  },
+  {
+    "id": "TEST-REP-004",
+    "name": "Customer Lifetime Value (CLV) and Retention Cohort Analysis",
+    "service": "ReportingService",
+    "target_endpoints": [
+      "/api/v1/reports/clv"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 45,
+    "flakiness_score": 0.02,
+    "tags": [
+      "reporting",
+      "cohort",
+      "clv",
+      "marketing"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Groups customers into acquisition monthly cohorts and tracks 12-month repeat purchase revenue."
+  },
+  {
+    "id": "TEST-REP-005",
+    "name": "Executive Dashboard Automated Weekly PDF Digest Generation",
+    "service": "ReportingService",
+    "target_endpoints": [
+      "/api/v1/reports/digest"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 50,
+    "flakiness_score": 0.03,
+    "tags": [
+      "reporting",
+      "digest",
+      "pdf",
+      "cron"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Compiles executive summary KPIs with embedded trend charts and emails digest to leadership."
+  },
+  {
+    "id": "TEST-REC-001",
+    "name": "Personalized Homepage Product Recommendations",
+    "service": "RecommendationService",
+    "target_endpoints": [
+      "/api/v1/recommendations/homepage"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.1,
+    "execution_time_seconds": 12,
+    "flakiness_score": 0.03,
+    "tags": [
+      "recommendations",
+      "ml",
+      "personalization"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Evaluates collaborative filtering model predictions based on customer recent browsing history."
+  },
+  {
+    "id": "TEST-REC-002",
+    "name": "Frequently Bought Together Basket Association Mining",
+    "service": "RecommendationService",
+    "target_endpoints": [
+      "/api/v1/recommendations/frequently-bought"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.08,
+    "execution_time_seconds": 11,
+    "flakiness_score": 0.02,
+    "tags": [
+      "recommendations",
+      "apriori",
+      "cross-sell"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Calculates confidence and lift metrics for product bundles to show on product details pages."
+  },
+  {
+    "id": "TEST-REC-003",
+    "name": "Cold-Start Recommendations for Anonymous Guest Visitors",
+    "service": "RecommendationService",
+    "target_endpoints": [
+      "/api/v1/recommendations/trending"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 8,
+    "flakiness_score": 0.01,
+    "tags": [
+      "recommendations",
+      "trending",
+      "cold-start"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Falls back to category bestsellers and trending viral SKUs when user profile vector is empty."
+  },
+  {
+    "id": "TEST-REC-004",
+    "name": "Out-of-Stock Substitute Alternative Suggestions",
+    "service": "RecommendationService",
+    "target_endpoints": [
+      "/api/v1/recommendations/substitutes"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.12,
+    "execution_time_seconds": 15,
+    "flakiness_score": 0.04,
+    "tags": [
+      "recommendations",
+      "substitutes",
+      "inventory"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Identifies similar in-stock products with overlapping attribute embeddings when target SKU is sold out."
+  },
+  {
+    "id": "TEST-REV-001",
+    "name": "Customer Product Review and Star Rating Submission",
+    "service": "ReviewService",
+    "target_endpoints": [
+      "/api/v1/reviews/submit"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.07,
+    "execution_time_seconds": 10,
+    "flakiness_score": 0.02,
+    "tags": [
+      "reviews",
+      "ratings",
+      "ugc"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Validates verified-buyer status, star ratings (1-5), and review text character limits."
+  },
+  {
+    "id": "TEST-REV-002",
+    "name": "Automated Content Moderation and Profanity Filter",
+    "service": "ReviewService",
+    "target_endpoints": [
+      "/api/v1/reviews/moderation"
+    ],
+    "test_type": "API",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.11,
+    "execution_time_seconds": 13,
+    "flakiness_score": 0.03,
+    "tags": [
+      "reviews",
+      "moderation",
+      "profanity",
+      "safety"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Scans submitted text against forbidden word blacklists and sentiment toxicity classifiers."
+  },
+  {
+    "id": "TEST-REV-003",
+    "name": "Aggregated Product Rating Score and Histogram Recalculation",
+    "service": "ReviewService",
+    "target_endpoints": [
+      "/api/v1/reviews/summary"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 9,
+    "flakiness_score": 0.01,
+    "tags": [
+      "reviews",
+      "aggregation",
+      "histogram"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Recalculates bayesian average rating score and 1-to-5 star percentage breakdown."
+  },
+  {
+    "id": "TEST-REV-004",
+    "name": "Customer Helpful Upvoting and Review Sorting",
+    "service": "ReviewService",
+    "target_endpoints": [
+      "/api/v1/reviews/vote"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.04,
+    "execution_time_seconds": 7,
+    "flakiness_score": 0.01,
+    "tags": [
+      "reviews",
+      "voting",
+      "sorting"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Increments helpful vote tally and prevents duplicate voting from the same authenticated account."
+  },
+  {
+    "id": "TEST-LOY-001",
+    "name": "Customer Reward Points Accrual on Completed Purchase",
+    "service": "LoyaltyService",
+    "target_endpoints": [
+      "/api/v1/loyalty/earn"
+    ],
+    "test_type": "Integration",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.13,
+    "execution_time_seconds": 18,
+    "flakiness_score": 0.04,
+    "tags": [
+      "loyalty",
+      "rewards",
+      "points"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Awards 1 point per $1 spent on fulfilled orders and applies multiplier for VIP tier members."
+  },
+  {
+    "id": "TEST-LOY-002",
+    "name": "Points Redemption for Instant Checkout Cart Discount",
+    "service": "LoyaltyService",
+    "target_endpoints": [
+      "/api/v1/loyalty/redeem",
+      "/api/v1/orders/checkout"
+    ],
+    "test_type": "E2E",
+    "business_criticality": "High",
+    "historical_failure_rate": 0.23,
+    "execution_time_seconds": 33,
+    "flakiness_score": 0.07,
+    "tags": [
+      "loyalty",
+      "redemption",
+      "checkout",
+      "e2e"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Deducts 500 reward points to apply a $25 credit on checkout order total; rolls back on failed checkout."
+  },
+  {
+    "id": "TEST-LOY-003",
+    "name": "Annual Tier Upgrade and Downgrade Recalculation",
+    "service": "LoyaltyService",
+    "target_endpoints": [
+      "/api/v1/loyalty/tiers"
+    ],
+    "test_type": "API",
+    "business_criticality": "Medium",
+    "historical_failure_rate": 0.06,
+    "execution_time_seconds": 21,
+    "flakiness_score": 0.02,
+    "tags": [
+      "loyalty",
+      "tiers",
+      "vip"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Evaluates calendar-year qualifying spend thresholds (Bronze -> Silver -> Gold -> Platinum)."
+  },
+  {
+    "id": "TEST-LOY-004",
+    "name": "Points Expiry Notification Warning Dispatch",
+    "service": "LoyaltyService",
+    "target_endpoints": [
+      "/api/v1/loyalty/expiry"
+    ],
+    "test_type": "API",
+    "business_criticality": "Low",
+    "historical_failure_rate": 0.05,
+    "execution_time_seconds": 16,
+    "flakiness_score": 0.02,
+    "tags": [
+      "loyalty",
+      "expiry",
+      "notifications"
+    ],
+    "last_run_status": "PASSED",
+    "description": "Identifies points reaching 12-month inactivity expiration and schedules warning email notification."
+  }
+]

@@ -1,0 +1,6411 @@
+[
+  {
+    "id": "AUDIT-74F984",
+    "timestamp": "2026-10-05T09:28:29.874468+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-51140E43) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-51140E43",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4304EF",
+    "timestamp": "2026-10-05T09:28:08.107820+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0FBF483C) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-0FBF483C",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-42E410",
+    "timestamp": "2026-10-05T09:27:31.157689+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CF26EF1D) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-CF26EF1D",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9D2EDC",
+    "timestamp": "2026-10-01T06:05:03.102271+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-172FAF56) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-172FAF56",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5BF3E5",
+    "timestamp": "2026-09-30T11:30:53.928337+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-65B12EA8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-65B12EA8",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D49FE4",
+    "timestamp": "2026-09-30T11:29:18.123823+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5FB2588E) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-5FB2588E",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8DE158",
+    "timestamp": "2026-09-30T11:27:31.397302+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-25D60D1F) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-25D60D1F",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-23B1A4",
+    "timestamp": "2026-09-30T11:27:22.426621+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-138A527F) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-138A527F",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-452EC4",
+    "timestamp": "2026-09-30T11:26:57.991238+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-46F43BDB) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-46F43BDB",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A30A21",
+    "timestamp": "2026-09-30T11:25:06.390393+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E9AF4ABC) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-E9AF4ABC",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C25D35",
+    "timestamp": "2026-09-30T11:20:40.227228+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FA162368) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-FA162368",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8EEF13",
+    "timestamp": "2026-09-30T10:48:41.129437+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-135B5F35) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-135B5F35",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-97A42D",
+    "timestamp": "2026-09-30T10:48:33.644936+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-636D6D40) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-636D6D40",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AFA4B1",
+    "timestamp": "2026-09-30T10:48:23.986108+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-75E41108) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-75E41108",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B0A50B",
+    "timestamp": "2026-09-30T10:47:54.195154+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-521E5D9B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-521E5D9B",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-125864",
+    "timestamp": "2026-09-30T10:47:17.799878+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-741AE8",
+    "timestamp": "2026-09-30T10:47:17.770128+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-437BBCED) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-437BBCED",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-06BC7E",
+    "timestamp": "2026-09-30T10:47:17.689352+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-6D8B16",
+    "timestamp": "2026-09-30T10:47:17.640826+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A115735D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A115735D",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-393D88",
+    "timestamp": "2026-09-30T10:44:50.965088+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E3E1C049) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-E3E1C049",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-627B38",
+    "timestamp": "2026-09-30T10:44:49.409539+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4386D8B2) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4386D8B2",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-39D515",
+    "timestamp": "2026-09-30T10:44:48.457860+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-99195E32) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-99195E32",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CC3B23",
+    "timestamp": "2026-09-30T10:44:47.065134+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0871A41C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0871A41C",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-515807",
+    "timestamp": "2026-09-30T10:44:43.675269+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-13246DEB) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-13246DEB",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-81114E",
+    "timestamp": "2026-09-30T10:44:02.987417+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E5C52CBF) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E5C52CBF",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FEA3A7",
+    "timestamp": "2026-09-30T10:43:31.107264+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-550FE5CE) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-550FE5CE",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AC17D5",
+    "timestamp": "2026-09-30T10:43:01.721253+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-0DA7AD",
+    "timestamp": "2026-09-30T10:43:01.670055+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7CB82E83) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-7CB82E83",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A7D76A",
+    "timestamp": "2026-09-30T10:43:01.544427+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-C00219",
+    "timestamp": "2026-09-30T10:43:01.498022+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0CDEB440) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0CDEB440",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7BF260",
+    "timestamp": "2026-09-30T10:41:31.116040+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E7ACF370) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E7ACF370",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3491C5",
+    "timestamp": "2026-09-30T10:33:18.874024+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F2882736) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-F2882736",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-721208",
+    "timestamp": "2026-09-30T10:33:17.111698+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A4750252) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-A4750252",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-50E216",
+    "timestamp": "2026-09-30T10:33:16.003005+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F40B5668) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-F40B5668",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0B7590",
+    "timestamp": "2026-09-30T10:33:14.667432+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FC69A278) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-FC69A278",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3D4891",
+    "timestamp": "2026-09-30T10:33:13.058663+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A03B66C7) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A03B66C7",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-834D4A",
+    "timestamp": "2026-09-30T10:33:08.311092+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-09A23DB8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-09A23DB8",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C29D21",
+    "timestamp": "2026-09-30T10:24:39.498687+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-34513264) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-34513264",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-18C7E3",
+    "timestamp": "2026-09-30T10:23:02.806325+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6B2E3471) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-6B2E3471",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DE70E4",
+    "timestamp": "2026-09-30T10:22:55.378589+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3E98FC1F) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-3E98FC1F",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D43BE4",
+    "timestamp": "2026-09-30T10:22:54.306764+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3823B989) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-3823B989",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6D6893",
+    "timestamp": "2026-09-30T10:21:03.855944+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-990C7189) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-990C7189",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CAE8AD",
+    "timestamp": "2026-09-30T10:20:16.841100+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-D8E9B29C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-D8E9B29C",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B911E6",
+    "timestamp": "2026-09-30T10:20:07.607215+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B33BC8DF) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-B33BC8DF",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-23923D",
+    "timestamp": "2026-09-30T10:20:06.495522+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AC79EA04) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-AC79EA04",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-781A5A",
+    "timestamp": "2026-09-30T10:20:05.193570+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-52156735) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-52156735",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C9D277",
+    "timestamp": "2026-09-30T10:20:03.599063+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-63C8EFD8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-63C8EFD8",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F1C139",
+    "timestamp": "2026-09-30T10:19:55.100201+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-988B3E70) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-988B3E70",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B3E806",
+    "timestamp": "2026-09-30T10:19:51.985088+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-77E6D756) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-77E6D756",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DE934C",
+    "timestamp": "2026-09-30T10:18:12.229370+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DD37AA99) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-DD37AA99",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-96D860",
+    "timestamp": "2026-09-30T10:17:58.913586+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DF55FB27) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-DF55FB27",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B4760F",
+    "timestamp": "2026-09-30T10:17:57.195352+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-02B43710) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-02B43710",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-098219",
+    "timestamp": "2026-09-30T10:17:54.848014+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9CAAD6A7) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-9CAAD6A7",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-121E72",
+    "timestamp": "2026-09-30T10:17:53.587682+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-040C6E06) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-040C6E06",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-144FB7",
+    "timestamp": "2026-09-30T10:17:48.722954+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-52B5663D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-52B5663D",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-779F6E",
+    "timestamp": "2026-09-30T10:17:45.987829+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B33B0397) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-B33B0397",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-26C2FF",
+    "timestamp": "2026-09-30T10:17:41.144168+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-26B916C5) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-26B916C5",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-22ABA6",
+    "timestamp": "2026-09-30T10:03:46.816994+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-39F16EC5) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-39F16EC5",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-12464C",
+    "timestamp": "2026-09-30T09:49:30.821014+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A0291337) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A0291337",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0328BD",
+    "timestamp": "2026-09-30T09:47:30.297499+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-85B57E98) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-85B57E98",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C78A46",
+    "timestamp": "2026-09-30T09:47:01.831797+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-C398C4",
+    "timestamp": "2026-09-30T09:47:01.770559+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FD69AA86) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-FD69AA86",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9E8C93",
+    "timestamp": "2026-09-30T09:47:01.648190+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-F63F85",
+    "timestamp": "2026-09-30T09:47:01.570309+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-07392B33) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-07392B33",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-439325",
+    "timestamp": "2026-09-30T09:33:05.798721+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1BDF30E0) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-1BDF30E0",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-525803",
+    "timestamp": "2026-09-30T09:32:02.791395+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-CD3CAF",
+    "timestamp": "2026-09-30T09:32:02.762987+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C872700F) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-C872700F",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-215312",
+    "timestamp": "2026-09-30T09:32:01.082647+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1F8E7EED) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-1F8E7EED",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-768238",
+    "timestamp": "2026-09-30T09:31:59.733640+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0B5A3985) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0B5A3985",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7D2A34",
+    "timestamp": "2026-09-30T09:31:57.871796+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-007A0B",
+    "timestamp": "2026-09-30T09:31:57.799212+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BD5F24C6) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-BD5F24C6",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7751DA",
+    "timestamp": "2026-09-30T09:31:01.783867+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FE261407) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-FE261407",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-EC9202",
+    "timestamp": "2026-09-30T09:26:17.187947+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-163A9A",
+    "timestamp": "2026-09-30T09:26:17.078667+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-39B28163) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-39B28163",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A12DFE",
+    "timestamp": "2026-09-30T09:26:15.375106+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-02701513) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-02701513",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DA5275",
+    "timestamp": "2026-09-30T09:26:13.766753+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4EF9752D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4EF9752D",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C35B77",
+    "timestamp": "2026-09-30T09:26:11.574979+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-E5FB67",
+    "timestamp": "2026-09-30T09:26:11.408650+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E470CB76) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E470CB76",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DF487B",
+    "timestamp": "2026-09-30T09:25:26.752357+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-9EE9B7",
+    "timestamp": "2026-09-30T09:25:26.691215+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-614F0E51) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-614F0E51",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-908E82",
+    "timestamp": "2026-09-30T09:25:24.983144+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CFA850F6) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CFA850F6",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B137D0",
+    "timestamp": "2026-09-30T09:25:21.790923+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1759551B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-1759551B",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-548838",
+    "timestamp": "2026-09-30T09:25:18.317310+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-57AA68",
+    "timestamp": "2026-09-30T09:25:18.180722+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-74BA1893) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-74BA1893",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B463AB",
+    "timestamp": "2026-09-30T09:24:50.444970+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-EF7B89",
+    "timestamp": "2026-09-30T09:24:50.393551+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-8ECED690) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-8ECED690",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E26FA3",
+    "timestamp": "2026-09-30T09:24:46.841885+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-4E1869",
+    "timestamp": "2026-09-30T09:24:46.724699+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CAB15382) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CAB15382",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-76DA51",
+    "timestamp": "2026-09-30T09:05:28.899599+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FB970375) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-FB970375",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CEFB79",
+    "timestamp": "2026-09-30T09:05:15.602351+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-18BE6A14) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-18BE6A14",
+      "total_evaluated": 100,
+      "impacted_count": 10,
+      "priorities": {
+        "High": 4,
+        "Medium": 6,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-23889B",
+    "timestamp": "2026-09-30T09:05:11.017466+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-543FE814) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-543FE814",
+      "total_evaluated": 100,
+      "impacted_count": 8,
+      "priorities": {
+        "High": 0,
+        "Medium": 7,
+        "Low": 1
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-755B38",
+    "timestamp": "2026-09-30T09:04:58.943253+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4C5D199F) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-4C5D199F",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7A87E7",
+    "timestamp": "2026-09-30T09:04:46.027725+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AB46B4F4) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-AB46B4F4",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2FFA19",
+    "timestamp": "2026-09-30T09:04:08.876943+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-B0737B",
+    "timestamp": "2026-09-30T09:04:08.837139+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4E65077D) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-4E65077D",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F90930",
+    "timestamp": "2026-09-30T09:04:08.719619+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-8756CD",
+    "timestamp": "2026-09-30T09:04:08.647347+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C7C66FC9) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C7C66FC9",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-478D35",
+    "timestamp": "2026-09-30T09:03:31.130023+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-31722DD2) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-31722DD2",
+      "total_evaluated": 100,
+      "impacted_count": 19,
+      "priorities": {
+        "High": 2,
+        "Medium": 13,
+        "Low": 4
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-598D10",
+    "timestamp": "2026-09-30T09:03:29.614321+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-62E78A5E) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-62E78A5E",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D4F9B2",
+    "timestamp": "2026-09-30T09:02:55.402531+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-72D03697) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-72D03697",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-35FD2A",
+    "timestamp": "2026-09-30T09:02:17.487954+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-PAY-006"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-9FCA1F",
+    "timestamp": "2026-09-30T09:02:17.447976+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E6FF6901) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-E6FF6901",
+      "total_evaluated": 100,
+      "impacted_count": 13,
+      "priorities": {
+        "High": 7,
+        "Medium": 4,
+        "Low": 2
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FA007F",
+    "timestamp": "2026-09-30T09:02:17.321682+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-3BCA2F",
+    "timestamp": "2026-09-30T09:02:17.243799+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-007F21C9) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-007F21C9",
+      "total_evaluated": 100,
+      "impacted_count": 14,
+      "priorities": {
+        "High": 9,
+        "Medium": 5,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3CDC0F",
+    "timestamp": "2026-09-30T08:57:13.017912+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-997166",
+    "timestamp": "2026-09-30T08:57:12.987718+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AA23A1F2) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-AA23A1F2",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-66BD5D",
+    "timestamp": "2026-09-30T08:57:12.906642+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-7750F3",
+    "timestamp": "2026-09-30T08:57:12.859202+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E2CA63A4) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E2CA63A4",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4C0109",
+    "timestamp": "2026-09-30T08:56:27.579932+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Human review action: APPROVED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-F22A8B",
+    "timestamp": "2026-09-30T08:56:26.063872+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-196EB963) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-196EB963",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-20FCDB",
+    "timestamp": "2026-09-30T08:55:52.876873+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EDB40A22) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-EDB40A22",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A71BEC",
+    "timestamp": "2026-09-30T08:55:52.018763+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E823C627) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-E823C627",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9293F2",
+    "timestamp": "2026-09-30T08:53:01.560133+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C54129E7) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-C54129E7",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-95FE3F",
+    "timestamp": "2026-09-30T07:41:06.905380+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9FDCFCB8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-9FDCFCB8",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3A27D1",
+    "timestamp": "2026-09-30T07:40:51.818682+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: MODIFIED",
+    "details": {
+      "decision": "MODIFIED",
+      "comments": "Human review action: MODIFIED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-DF69E6",
+    "timestamp": "2026-09-30T07:40:49.214443+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-973DAA06) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-973DAA06",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-078640",
+    "timestamp": "2026-09-30T07:40:37.374715+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A91197C5) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-A91197C5",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-042BAA",
+    "timestamp": "2026-09-30T07:40:27.020725+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5C40EB67) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-5C40EB67",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F1AAD3",
+    "timestamp": "2026-09-30T07:40:17.198573+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B02ED069) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-B02ED069",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C0B209",
+    "timestamp": "2026-09-30T07:35:53.631127+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-DAE3BC",
+    "timestamp": "2026-09-30T07:35:53.605425+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4507A95A) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-4507A95A",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-07601C",
+    "timestamp": "2026-09-30T07:35:53.542188+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-8BF05E",
+    "timestamp": "2026-09-30T07:35:53.499141+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-74EE5D03) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-74EE5D03",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-EB07A5",
+    "timestamp": "2026-09-30T07:32:37.112845+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-AFD460",
+    "timestamp": "2026-09-30T07:32:37.087443+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DD266753) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-DD266753",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-15939E",
+    "timestamp": "2026-09-30T07:32:37.012562+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-45C693",
+    "timestamp": "2026-09-30T07:32:36.969358+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EFAD80C5) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-EFAD80C5",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B8F881",
+    "timestamp": "2026-09-30T07:26:50.948358+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-7872F5",
+    "timestamp": "2026-09-30T07:26:50.924856+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CDBD15E0) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-CDBD15E0",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7EE17E",
+    "timestamp": "2026-09-30T07:26:50.884847+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-04EA93E2) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-04EA93E2",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D805AD",
+    "timestamp": "2026-09-30T07:26:50.549936+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-124141",
+    "timestamp": "2026-09-30T07:26:50.503987+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-82376E9F) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-82376E9F",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AAC418",
+    "timestamp": "2026-09-30T05:09:56.015778+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-8ADD59BB) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-8ADD59BB",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-41BDA1",
+    "timestamp": "2026-09-30T05:09:54.096111+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B83C79E0) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-B83C79E0",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E27DD2",
+    "timestamp": "2026-09-30T05:09:52.167166+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5BCD44ED) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-5BCD44ED",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-85F484",
+    "timestamp": "2026-09-30T05:09:50.888735+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4F791931) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4F791931",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-13E85F",
+    "timestamp": "2026-09-30T05:09:50.048265+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0C50DBA7) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0C50DBA7",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DBD1DD",
+    "timestamp": "2026-09-30T05:09:49.099302+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F99FDEA3) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-F99FDEA3",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D20C88",
+    "timestamp": "2026-09-30T05:09:47.511917+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5607CF1B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-5607CF1B",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DB7FAD",
+    "timestamp": "2026-09-30T05:09:46.185238+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6040F856) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-6040F856",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-03FFD6",
+    "timestamp": "2026-09-30T05:09:43.743251+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-721E6497) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-721E6497",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FD7700",
+    "timestamp": "2026-09-30T05:09:41.665025+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DA8F5448) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-DA8F5448",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C6C2EC",
+    "timestamp": "2026-09-30T05:09:37.342360+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A245515D) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-A245515D",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-23E683",
+    "timestamp": "2026-09-30T05:09:30.923962+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-60AD0F76) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-60AD0F76",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-45CF9A",
+    "timestamp": "2026-09-30T05:09:29.657770+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BE0C29DC) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-BE0C29DC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A1B7F4",
+    "timestamp": "2026-09-30T05:09:28.165388+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2B49C167) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-2B49C167",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4E44FC",
+    "timestamp": "2026-09-29T19:15:35.394743+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-D0FA2000) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-D0FA2000",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-BC735D",
+    "timestamp": "2026-09-29T19:15:29.168742+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-12D030BD) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-12D030BD",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FEF474",
+    "timestamp": "2026-09-29T19:15:01.620136+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-D7D50270) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-D7D50270",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-ADE180",
+    "timestamp": "2026-09-29T18:55:09.952065+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-A9CE6B",
+    "timestamp": "2026-09-29T18:55:09.923347+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F114F282) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-F114F282",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C56103",
+    "timestamp": "2026-09-29T18:55:09.851607+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0F6F4487) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0F6F4487",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7D5452",
+    "timestamp": "2026-09-29T18:55:09.326711+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-F988CB",
+    "timestamp": "2026-09-29T18:55:09.269431+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7A2D9592) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-7A2D9592",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-BA7F96",
+    "timestamp": "2026-09-29T18:54:43.704398+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-D15FED",
+    "timestamp": "2026-09-29T18:54:43.657531+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-33E058AA) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-33E058AA",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2DCA34",
+    "timestamp": "2026-09-29T18:54:43.599377+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C5CBEC7C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C5CBEC7C",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-14BCB9",
+    "timestamp": "2026-09-29T18:54:41.831327+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-B05050",
+    "timestamp": "2026-09-29T18:54:41.761000+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4A72F2BC) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4A72F2BC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2429C5",
+    "timestamp": "2026-09-29T18:53:47.821162+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-D42718",
+    "timestamp": "2026-09-29T18:53:47.776583+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6DA13F31) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-6DA13F31",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-26EBDB",
+    "timestamp": "2026-09-29T18:53:47.676362+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C6A224B8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C6A224B8",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9EEC6A",
+    "timestamp": "2026-09-29T18:53:45.498258+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-F0D51C",
+    "timestamp": "2026-09-29T18:53:45.410586+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-40BFEBAA) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-40BFEBAA",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E44BC6",
+    "timestamp": "2026-09-29T18:50:57.292650+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-C6BE3E",
+    "timestamp": "2026-09-29T18:50:57.231631+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CB356BD8) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-CB356BD8",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-345FE9",
+    "timestamp": "2026-09-29T18:50:57.046601+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-DEABF9",
+    "timestamp": "2026-09-29T18:50:56.937489+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C726EEBA) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C726EEBA",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6C1D24",
+    "timestamp": "2026-09-29T18:30:07.676835+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-D51DC1",
+    "timestamp": "2026-09-29T18:30:07.652404+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-358E09CE) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-358E09CE",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B28E1A",
+    "timestamp": "2026-09-29T18:30:07.575720+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-221650",
+    "timestamp": "2026-09-29T18:30:07.531557+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2C1BD69F) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-2C1BD69F",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3FDF10",
+    "timestamp": "2026-09-29T12:29:00.496526+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C676A7E7) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C676A7E7",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D0C236",
+    "timestamp": "2026-09-29T12:28:58.542121+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9340E2DF) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-9340E2DF",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8A9327",
+    "timestamp": "2026-09-29T11:54:17.870313+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CBA3662B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CBA3662B",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4BE413",
+    "timestamp": "2026-09-29T11:54:00.643673+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-11BD566D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-11BD566D",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F197FF",
+    "timestamp": "2026-09-29T11:31:38.515931+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AA7496D2) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-AA7496D2",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C1BD7D",
+    "timestamp": "2026-09-29T11:30:54.298639+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BA553BEF) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-BA553BEF",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E2343F",
+    "timestamp": "2026-09-29T11:30:36.767820+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5340D659) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-5340D659",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0EA989",
+    "timestamp": "2026-09-29T11:30:27.808295+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EB7BB34F) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-EB7BB34F",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F38138",
+    "timestamp": "2026-09-29T11:29:46.456804+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: MODIFIED",
+    "details": {
+      "decision": "MODIFIED",
+      "comments": "Human review action: MODIFIED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-4FAF92",
+    "timestamp": "2026-09-29T11:25:11.961002+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7D958082) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-7D958082",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-76D204",
+    "timestamp": "2026-09-29T11:25:08.387327+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-41468087) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-41468087",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-88C402",
+    "timestamp": "2026-09-29T11:23:31.706452+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-951EC5DD) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-951EC5DD",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6E21D3",
+    "timestamp": "2026-09-29T11:23:12.515714+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F76EFECD) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-F76EFECD",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3156A0",
+    "timestamp": "2026-09-29T11:08:40.895528+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B6E0E6D8) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-B6E0E6D8",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B54384",
+    "timestamp": "2026-09-29T11:06:45.284254+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: MODIFIED",
+    "details": {
+      "decision": "MODIFIED",
+      "comments": "i reviewed it. i approve these tests.",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-68B5B6",
+    "timestamp": "2026-09-29T11:02:29.298799+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2323E48A) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-2323E48A",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-85CD15",
+    "timestamp": "2026-09-29T11:02:15.901734+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EE71A68C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-EE71A68C",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6F13AB",
+    "timestamp": "2026-09-29T11:01:33.071180+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-888140BA) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-888140BA",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B1FB0D",
+    "timestamp": "2026-09-29T11:00:21.725903+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-77B92663) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-77B92663",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7D7115",
+    "timestamp": "2026-09-29T11:00:15.110609+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-80C58571) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-80C58571",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-06CB85",
+    "timestamp": "2026-09-29T10:58:10.524349+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Human review action: APPROVED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-A6844B",
+    "timestamp": "2026-09-29T10:58:03.410616+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: REJECTED",
+    "details": {
+      "decision": "REJECTED",
+      "comments": "Human review action: REJECTED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-39E363",
+    "timestamp": "2026-09-29T10:56:38.753594+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B5EBF569) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-B5EBF569",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-072E9B",
+    "timestamp": "2026-09-29T10:56:26.124928+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F007EF68) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-F007EF68",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C93DF0",
+    "timestamp": "2026-09-29T10:56:22.402464+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4221CDC7) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-4221CDC7",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0A2929",
+    "timestamp": "2026-09-29T10:56:20.312308+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1C92718F) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-1C92718F",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-65918A",
+    "timestamp": "2026-09-29T10:56:18.197134+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C696A4C1) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-C696A4C1",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C4CC70",
+    "timestamp": "2026-09-29T10:56:09.726131+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CE076371) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-CE076371",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-724FB5",
+    "timestamp": "2026-09-29T10:55:41.828959+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E50E4030) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E50E4030",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A71943",
+    "timestamp": "2026-09-29T10:55:36.000559+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-59CFDBE9) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-59CFDBE9",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-86EBED",
+    "timestamp": "2026-09-29T10:55:33.766319+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4D485D24) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-4D485D24",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9437DC",
+    "timestamp": "2026-09-29T10:55:28.828174+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-05AB1F60) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-05AB1F60",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-01FF32",
+    "timestamp": "2026-09-29T10:55:16.703486+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E1E80803) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E1E80803",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-00FDC6",
+    "timestamp": "2026-09-29T10:54:49.392530+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4B1622B5) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4B1622B5",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E6F219",
+    "timestamp": "2026-09-29T10:54:45.144369+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B228C78E) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-B228C78E",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8BB177",
+    "timestamp": "2026-09-29T10:54:13.405414+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-D0C3B7E5) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-D0C3B7E5",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C39DE8",
+    "timestamp": "2026-09-29T10:53:24.485001+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7DC52EAE) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-7DC52EAE",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-33C63F",
+    "timestamp": "2026-09-29T10:53:03.952716+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-58CB3AFF) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-58CB3AFF",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7B50A7",
+    "timestamp": "2026-09-29T10:52:31.957686+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-40F53796) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-40F53796",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-677B04",
+    "timestamp": "2026-09-29T10:50:39.656346+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FF89DAE1) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-FF89DAE1",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AB4BAE",
+    "timestamp": "2026-09-29T10:50:38.414148+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5DAB4DD3) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-5DAB4DD3",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-34454B",
+    "timestamp": "2026-09-29T10:50:36.634235+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1C277076) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-1C277076",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-EC19D1",
+    "timestamp": "2026-09-29T10:50:34.976578+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-861375BD) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-861375BD",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-BFCC9E",
+    "timestamp": "2026-09-29T10:45:08.227085+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9CA539AD) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-9CA539AD",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E44026",
+    "timestamp": "2026-09-29T10:45:07.009558+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BA2F9B7A) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-BA2F9B7A",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DAFD15",
+    "timestamp": "2026-09-29T10:45:05.517276+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BD3E8896) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-BD3E8896",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AD9037",
+    "timestamp": "2026-09-29T10:45:04.328054+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-C7E82E3D) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-C7E82E3D",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-42B661",
+    "timestamp": "2026-09-29T10:45:02.890639+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-171BFA7F) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-171BFA7F",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B93A7C",
+    "timestamp": "2026-09-29T10:44:56.925718+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5D00942D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-5D00942D",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B06A6E",
+    "timestamp": "2026-09-29T09:25:25.657102+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4AB78C0B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4AB78C0B",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-839365",
+    "timestamp": "2026-09-29T09:17:27.886454+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A2AC8F36) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A2AC8F36",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-70DCB3",
+    "timestamp": "2026-09-29T09:17:09.344426+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved staging regression run",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-AB8725",
+    "timestamp": "2026-09-29T09:17:09.323622+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-23E92AA9) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-23E92AA9",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AEE3D7",
+    "timestamp": "2026-09-29T09:14:00.755185+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-9A3C0C",
+    "timestamp": "2026-09-29T09:14:00.728978+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B2630336) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-B2630336",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-C218D6",
+    "timestamp": "2026-09-29T09:14:00.596642+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-B1040C",
+    "timestamp": "2026-09-29T09:14:00.512112+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CAAA66D0) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CAAA66D0",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-1CDCC5",
+    "timestamp": "2026-09-29T09:10:56.509334+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-14312D",
+    "timestamp": "2026-09-29T09:10:56.494998+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4BB6070B) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-4BB6070B",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-909CFE",
+    "timestamp": "2026-09-29T09:10:56.435074+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-C7E66B",
+    "timestamp": "2026-09-29T09:10:56.397446+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-53B408DC) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-53B408DC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A5B713",
+    "timestamp": "2026-09-29T09:06:31.316070+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1B756DDB) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-1B756DDB",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3F269A",
+    "timestamp": "2026-09-29T09:06:29.852132+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9E12BFD0) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-9E12BFD0",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CB7A2C",
+    "timestamp": "2026-09-29T09:06:27.143062+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CCE1554B) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-CCE1554B",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CB96B3",
+    "timestamp": "2026-09-29T09:06:26.001463+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-37052516) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-37052516",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-13A2E4",
+    "timestamp": "2026-09-29T09:06:22.204677+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-ABAC1346) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-ABAC1346",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-237245",
+    "timestamp": "2026-09-29T09:01:32.643394+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2497F271) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-2497F271",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0A6278",
+    "timestamp": "2026-09-29T09:01:19.980664+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3437000A) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-3437000A",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-70D1C7",
+    "timestamp": "2026-09-29T09:01:07.386757+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0CAF2D35) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-0CAF2D35",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5DCC49",
+    "timestamp": "2026-09-29T08:56:20.616211+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-50699330) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-50699330",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6D2FB2",
+    "timestamp": "2026-09-29T08:53:53.376350+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-92FA7D0A) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-92FA7D0A",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-877F39",
+    "timestamp": "2026-09-29T08:52:03.206124+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-102",
+    "actor": "Senior QE Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "i reviewed it. i approve these tests.",
+      "selected_test_ids": [
+        "TEST-ORD-001",
+        "TEST-ORD-002",
+        "TEST-ORD-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-128821",
+    "timestamp": "2026-09-29T08:50:58.912078+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BFB10A0C) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-BFB10A0C",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E790DF",
+    "timestamp": "2026-09-29T08:50:54.958624+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7D0F9BB5) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-7D0F9BB5",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-22DC09",
+    "timestamp": "2026-09-29T08:50:13.126569+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QE Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Human review action: APPROVED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-32229B",
+    "timestamp": "2026-09-29T08:47:08.424810+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-4D5FDABD) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-4D5FDABD",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4B1A31",
+    "timestamp": "2026-09-29T08:42:46.899354+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B2A3732A) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-B2A3732A",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-88F6C8",
+    "timestamp": "2026-09-29T08:42:45.026719+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2F123B07) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-2F123B07",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5A7397",
+    "timestamp": "2026-09-29T08:42:43.054518+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-589CD72B) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-589CD72B",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6D92DC",
+    "timestamp": "2026-09-29T08:42:23.408676+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-284AAD38) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-284AAD38",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-EBE9A0",
+    "timestamp": "2026-09-29T08:42:06.269053+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-69F7A542) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-69F7A542",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D74D29",
+    "timestamp": "2026-09-29T08:31:39.383078+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0D813B1F) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0D813B1F",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5144F8",
+    "timestamp": "2026-09-29T08:31:29.699701+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-574E7F00) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-574E7F00",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DCEEE4",
+    "timestamp": "2026-09-29T08:31:19.776394+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-67E61E62) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-67E61E62",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D398D1",
+    "timestamp": "2026-09-29T08:27:04.864492+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1103089C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-1103089C",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E2F887",
+    "timestamp": "2026-09-29T08:26:33.879067+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-21A8E3C1) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-21A8E3C1",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-75AA99",
+    "timestamp": "2026-09-29T08:26:19.473749+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-25D174ED) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-25D174ED",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-51EB7C",
+    "timestamp": "2026-09-29T08:26:11.312619+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6C57661E) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-6C57661E",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-08E8A9",
+    "timestamp": "2026-09-29T08:22:27.224915+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5C310E53) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-5C310E53",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-27DDC3",
+    "timestamp": "2026-09-29T08:21:56.115021+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6EFD581D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-6EFD581D",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-23FAD7",
+    "timestamp": "2026-09-29T08:21:49.783552+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1F213B15) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-1F213B15",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-816530",
+    "timestamp": "2026-09-29T08:00:00.864842+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5924C4C9) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-5924C4C9",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4D4260",
+    "timestamp": "2026-09-29T07:59:58.492000+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7353BB11) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-7353BB11",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8A3AC3",
+    "timestamp": "2026-09-29T07:59:57.054922+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BAE53E4C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-BAE53E4C",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-3F1D8D",
+    "timestamp": "2026-09-29T07:56:48.892302+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-42C6F46C) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-42C6F46C",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FDA081",
+    "timestamp": "2026-09-29T07:56:47.489306+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E75FC4D3) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E75FC4D3",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-4247C5",
+    "timestamp": "2026-09-29T07:56:42.756794+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7245ACF4) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-7245ACF4",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-09639E",
+    "timestamp": "2026-09-29T07:56:41.206932+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FBBFEDD6) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-FBBFEDD6",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F7EE04",
+    "timestamp": "2026-09-29T07:56:38.949048+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9A586C77) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-9A586C77",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8F11A4",
+    "timestamp": "2026-09-29T07:56:37.434091+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E3966841) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-E3966841",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-1A1410",
+    "timestamp": "2026-09-29T07:56:33.621263+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F6483F72) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-F6483F72",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B9C417",
+    "timestamp": "2026-09-29T07:55:54.375768+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2351116C) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-2351116C",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7BB54C",
+    "timestamp": "2026-09-29T07:54:36.680747+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1564DCB4) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-1564DCB4",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D6592B",
+    "timestamp": "2026-09-29T07:54:11.767832+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-D617F039) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-D617F039",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-85D58A",
+    "timestamp": "2026-09-29T07:53:32.809191+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-61D3A1E0) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-61D3A1E0",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FB2AA9",
+    "timestamp": "2026-09-29T07:53:02.496221+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-AC4E69",
+    "timestamp": "2026-09-29T07:53:02.474193+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-06D102C6) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-06D102C6",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B98E41",
+    "timestamp": "2026-09-29T07:53:02.406969+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A3172426) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A3172426",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-1A05B3",
+    "timestamp": "2026-09-29T07:52:58.073893+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-AB8715",
+    "timestamp": "2026-09-29T07:52:58.037163+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AD20E6AE) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-AD20E6AE",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FC8C95",
+    "timestamp": "2026-09-29T07:51:33.286489+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-53B081DC) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-53B081DC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7E9618",
+    "timestamp": "2026-09-29T07:51:22.414615+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Test Lead",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Verification test",
+      "selected_test_ids": [
+        "REG-PAY-001",
+        "REG-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-6FE2D6",
+    "timestamp": "2026-09-29T07:51:22.392077+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B3C921C4) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-B3C921C4",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DA7400",
+    "timestamp": "2026-09-29T07:48:49.545179+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-05D47C",
+    "timestamp": "2026-09-29T07:48:49.532010+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-562D4648) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-562D4648",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7CF393",
+    "timestamp": "2026-09-29T07:48:49.477663+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CF07BD07) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CF07BD07",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AD5842",
+    "timestamp": "2026-09-29T07:48:45.400695+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-EFA317",
+    "timestamp": "2026-09-29T07:48:45.371591+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-47A75C92) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-47A75C92",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-ECF3E8",
+    "timestamp": "2026-09-29T06:47:39.526559+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-D3F07C",
+    "timestamp": "2026-09-29T06:47:39.513135+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0DC5D3D3) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-0DC5D3D3",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-7FBC6C",
+    "timestamp": "2026-09-29T06:47:39.457819+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A880EE09) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A880EE09",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-549633",
+    "timestamp": "2026-09-29T06:47:35.419351+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-A68472",
+    "timestamp": "2026-09-29T06:47:35.390259+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0C5DDB6A) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-0C5DDB6A",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-73D1BC",
+    "timestamp": "2026-09-29T06:44:29.679066+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-EF7545",
+    "timestamp": "2026-09-29T06:44:29.669564+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9B792A03) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-9B792A03",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-FA2F5D",
+    "timestamp": "2026-09-29T06:44:29.616339+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-6C823F",
+    "timestamp": "2026-09-29T06:44:29.591618+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DAF8A6FC) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-DAF8A6FC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5CF8B0",
+    "timestamp": "2026-09-29T06:37:34.477819+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3AF81A4F) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-3AF81A4F",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-ED61EF",
+    "timestamp": "2026-09-29T06:37:30.578756+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5E712106) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-5E712106",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-AC6E07",
+    "timestamp": "2026-09-29T06:37:26.192871+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3A28642C) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-3A28642C",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-D229EE",
+    "timestamp": "2026-09-29T06:37:22.114850+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6F6FC8F2) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-6F6FC8F2",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-07E67B",
+    "timestamp": "2026-09-29T06:37:21.304426+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0091BDBE) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-0091BDBE",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-F27F84",
+    "timestamp": "2026-09-29T06:37:20.316205+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-0A10FCCD) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-0A10FCCD",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-EC20F6",
+    "timestamp": "2026-09-29T06:37:19.213787+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-69316461) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-69316461",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-E213DA",
+    "timestamp": "2026-09-29T06:26:51.302470+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AFE67879) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-AFE67879",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-30072B",
+    "timestamp": "2026-09-29T06:18:58.586602+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-763D9DDF) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-763D9DDF",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-77C20B",
+    "timestamp": "2026-09-29T06:18:55.594285+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-158AF6BC) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-158AF6BC",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-271289",
+    "timestamp": "2026-09-29T06:18:49.209861+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B2F7C7C9) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-B2F7C7C9",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-54E8D7",
+    "timestamp": "2026-09-29T06:18:44.945847+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F3B0E142) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-F3B0E142",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-9367B2",
+    "timestamp": "2026-09-29T06:05:31.798758+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2725C6B5) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-2725C6B5",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-CC5BB6",
+    "timestamp": "2026-09-29T06:02:23.077208+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-2EBCD806) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-2EBCD806",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0822CC",
+    "timestamp": "2026-09-29T06:02:14.671709+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-7D43EAD4) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-7D43EAD4",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8ADEEB",
+    "timestamp": "2026-09-29T05:55:33.092393+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-B78C0215) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-B78C0215",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5EA954",
+    "timestamp": "2026-09-29T05:53:39.192948+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-A55C9E6E) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-A55C9E6E",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-DD1606",
+    "timestamp": "2026-09-29T05:53:39.131140+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-E511999A) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-E511999A",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-71F1A9",
+    "timestamp": "2026-09-28T12:26:28.167355+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-5462F2A6) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-5462F2A6",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2E6DD8",
+    "timestamp": "2026-09-28T12:25:59.399735+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QE Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Human review action: APPROVED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-4007D1",
+    "timestamp": "2026-09-28T12:24:17.788831+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QE Engineer",
+    "action": "Human Review Decision: REJECTED",
+    "details": {
+      "decision": "REJECTED",
+      "comments": "Human review action: REJECTED",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001",
+        "TEST-PAY-001",
+        "TEST-PAY-003"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-7A4259",
+    "timestamp": "2026-09-28T12:18:11.832143+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-1EB18F0D) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-1EB18F0D",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-14F02A",
+    "timestamp": "2026-09-28T12:18:11.783596+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-95B330B1) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-95B330B1",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-29A240",
+    "timestamp": "2026-09-28T12:16:25.411711+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9951D081) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-9951D081",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-629E96",
+    "timestamp": "2026-09-28T12:16:25.359002+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-077B2CCB) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-077B2CCB",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-6242EC",
+    "timestamp": "2026-09-28T12:15:40.788385+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-FCD11184) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-FCD11184",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0822FC",
+    "timestamp": "2026-09-28T12:15:34.547441+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6E0A1FD7) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-6E0A1FD7",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2AC455",
+    "timestamp": "2026-09-28T12:15:25.454522+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-104",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3841D11C) for Inventory Stock Reservation Optimistic Lock",
+    "details": {
+      "pipeline_id": "PIPE-3841D11C",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 2,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-943A81",
+    "timestamp": "2026-09-28T12:15:20.579715+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-102",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-9CB159EC) for Checkout Order Address Validation Strict Mode",
+    "details": {
+      "pipeline_id": "PIPE-9CB159EC",
+      "total_evaluated": 12,
+      "impacted_count": 3,
+      "priorities": {
+        "High": 1,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-25DC9E",
+    "timestamp": "2026-09-28T12:15:16.796871+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-DD222D8A) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-DD222D8A",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-208BAD",
+    "timestamp": "2026-09-28T12:15:10.762643+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-F24288CF) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-F24288CF",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-0BA1FD",
+    "timestamp": "2026-09-28T12:15:09.466792+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EB116663) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-EB116663",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-2D8AEB",
+    "timestamp": "2026-09-28T12:15:08.491311+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-632AE577) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-632AE577",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-071614",
+    "timestamp": "2026-09-28T12:15:07.574972+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-BD8615FC) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-BD8615FC",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8CA04E",
+    "timestamp": "2026-09-28T12:15:06.536747+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-103",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-6F315D96) for User Profile Phone Verification Patch",
+    "details": {
+      "pipeline_id": "PIPE-6F315D96",
+      "total_evaluated": 12,
+      "impacted_count": 2,
+      "priorities": {
+        "High": 0,
+        "Medium": 2,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-381783",
+    "timestamp": "2026-09-28T12:10:24.829028+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-CB601CD8) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-CB601CD8",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-8BDCB8",
+    "timestamp": "2026-09-28T12:10:23.526559+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-3E59349E) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-3E59349E",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-5FE168",
+    "timestamp": "2026-09-28T12:09:25.323127+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-ADAA08B3) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-ADAA08B3",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-A88980",
+    "timestamp": "2026-09-28T12:01:25.492368+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Lead QA Engineer",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for deployment staging test",
+      "selected_test_ids": [
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-03538E",
+    "timestamp": "2026-09-28T12:01:25.480277+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-TEST-WF",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-EEA173AC) for Workflow Verification Change",
+    "details": {
+      "pipeline_id": "PIPE-EEA173AC",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-B878B3",
+    "timestamp": "2026-09-28T12:01:25.384567+00:00",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "Senior QA Tester",
+    "action": "Human Review Decision: APPROVED",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Automated verification pass",
+      "selected_test_ids": [
+        "TEST-PAY-001",
+        "TEST-PAY-002"
+      ],
+      "priority_overrides": {}
+    }
+  },
+  {
+    "id": "AUDIT-E51531",
+    "timestamp": "2026-09-28T12:01:25.354909+00:00",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Executed Agentic QE pipeline (PIPE-AB8757F1) for Payment Gateway Tokenization Migration",
+    "details": {
+      "pipeline_id": "PIPE-AB8757F1",
+      "total_evaluated": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 4,
+        "Medium": 0,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-001",
+    "timestamp": "2026-09-28T09:30:00Z",
+    "event_type": "PIPELINE_RUN",
+    "change_id": "CHG-101",
+    "actor": "Agent Orchestrator",
+    "action": "Completed regression impact analysis for Payment Gateway Tokenization Migration",
+    "details": {
+      "tests_analyzed": 12,
+      "impacted_count": 4,
+      "priorities": {
+        "High": 3,
+        "Medium": 1,
+        "Low": 0
+      },
+      "execution_mode": "Local Deterministic Fallback"
+    }
+  },
+  {
+    "id": "AUDIT-002",
+    "timestamp": "2026-09-28T09:35:10Z",
+    "event_type": "HUMAN_REVIEW",
+    "change_id": "CHG-101",
+    "actor": "QA Lead (srashriv)",
+    "action": "Approved prioritized regression test suite",
+    "details": {
+      "decision": "APPROVED",
+      "comments": "Approved for immediate staging regression execution. Idempotency test prioritized appropriately.",
+      "final_selected_tests": [
+        "TEST-PAY-001",
+        "TEST-PAY-002",
+        "TEST-ORD-001"
+      ]
+    }
+  }
+]
